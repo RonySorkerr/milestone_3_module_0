@@ -36,6 +36,8 @@
             padding: 20px;
             /* animation: dropup 5s infinite; */
             position: relative;
+            background-image: linear-gradient(90deg, rgba(14,0,255,1) 0%, rgba(223,220,35,0.2777485994397759) 39%, rgba(17,127,149,1) 100%);
+            /* transform: rotate(45deg); */
         }
         .wrapper img{
             width: 100%;
@@ -45,12 +47,13 @@
             transition: 0.7s ease all;
         }
         .wrapper img:hover{
-            /* transform: scale(0.7); */
+            transform: scale(0.7);
             /* filter: sepia(1.5); */
             /* filter: hue-rotate(30deg); */
             /* filter: saturate(2); */
-            filter: drop-shadow(1px 1px 20px red);
-            transform: skew(180deg);
+            filter: drop-shadow(1px 1px 100px red);
+            /* transform: skew(180deg); */
+            
 
         }
         .texts{
@@ -61,6 +64,10 @@
             color: black;
             text-shadow: 0px 0px 5px red;
         }
+        .back{
+            background-image: linear-gradient(90deg, rgba(14,0,255,1) 0%, rgba(223,220,35,0.2777485994397759) 39%, rgba(17,127,149,1) 100%);
+
+        }
     </style>
 </head>
 <body>
@@ -68,6 +75,16 @@
         <img src="https://images.pexels.com/photos/1468379/pexels-photo-1468379.jpeg?cs=srgb&dl=pexels-tu%E1%BA%A5n-ki%E1%BB%87t-jr-1468379.jpg&fm=jpg" alt="">
         <div class="texts">
             Point Your Curson center
+        </div>
+    </div>
+
+    <div class="">
+        <div class="">
+            <div class="back">
+                <h1 class="top">
+                    I am here to learn web development. But it is not as tought as I thought. I am liking it.
+                </h1>
+            </div>
         </div>
     </div>
 </body>
